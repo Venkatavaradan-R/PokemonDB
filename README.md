@@ -19,4 +19,4 @@ run the scripts one by one in the following order:
 DDL -> Triggers -> Population -> Queries
 
 
-Project Timeline details: Start date: 20th May 2020 End date : 27th May 2020 Time spent(approx.) : 36hrs
+Project Timeline details: Start date: 20th May 2020 End date : 27th May 2020 Time spent(approx.) : 44hrs
