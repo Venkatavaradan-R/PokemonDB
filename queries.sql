@@ -57,3 +57,16 @@ where cbfa.location_name IN
         from location as l left join captured as c
         on c.location_name=l.location_name
         where at_datetime is null);
+
+
+#list the pokemon that dont learn any moves at level 66
+
+select p.pokedex_id,p.pkmn_name,cl.move_name, cl.at_level as LEVEL
+from pokemon as p left join can_learn as cl
+on p.pokedex_id = cl.pokedex_id
+where cl.at_level !=66
+union
+select p.pokedex_id,p.pkmn_name,cl.move_name, cl.at_level as LEVEL
+from pokemon as p right join can_learn as cl
+on p.pokedex_id = cl.pokedex_id
+where cl.at_level !=66;
