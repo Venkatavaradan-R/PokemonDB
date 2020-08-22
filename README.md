@@ -10,7 +10,7 @@ The repo contains all the scripts as well as the presentation itself for the pro
 
 instructions to run:
 
-Install mysql
+Install mysql or mariaDB
 copy the script from final.sql
 
 OR
@@ -20,3 +20,5 @@ DDL -> Triggers -> Population -> Queries
 
 
 Project Timeline details: Start date: 20th May 2020 End date : 27th May 2020 Time spent(approx.) : 44hrs
+
+
